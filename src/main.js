@@ -19,7 +19,7 @@ Vue.use(Vuelidate)
 Vue.use(VueCookies)
 
 Vue.$cookies.config('1d')
-Vue.axios.defaults.baseURL = 'http://localhost:8000/'
+Vue.axios.defaults.baseURL = 'https://itproject-back.herokuapp.com/'
 
 new Vue({
     router,
