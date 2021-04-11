@@ -33,7 +33,7 @@
       </v-container>
     </v-form>
 
-    <v-snackbar class="success" top v-model="saved">Пользователь {{ user.username }} успешно создан</v-snackbar>
+    <v-snackbar top v-model="saved">Пользователь {{ user.username }} успешно создан</v-snackbar>
   </div>
 </template>
 
